@@ -20,7 +20,7 @@ Building AI agents that understand complex real-world operations and turn unstru
 ### 🧪 Agent Evals
 Building eval systems to understand where AI agents fail, how reliable they are, and how to make agentic workflows safer in production.
 
-### 🛡️ AI Privacy Guard
+### 🛡️ [AI Privacy Guard](https://github.com/Zent-Agency/ai-privacy-guard)
 Built at a hackathon: a local-first Chrome extension that catches credentials, PII, financial data, and other sensitive information before it gets sent to any LLM.
 
 ## Currently interested in
