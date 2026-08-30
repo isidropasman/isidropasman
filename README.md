@@ -17,6 +17,12 @@ AI-powered organizational memory. Turn an org chart into AI agents that learn ho
 ### ⚡ Plexo
 Building AI agents that understand complex real-world operations and turn unstructured human knowledge into actionable intelligence.
 
+### 🧪 Agent Evals
+Experiments and tooling for evaluating AI agents — measuring reliability, failure modes, and behavior across complex tasks.
+
+### 🛡️ AI Privacy Guard
+A local-first Chrome extension that detects sensitive information before it reaches AI tools, blocking secrets and helping anonymize PII directly in the browser.
+
 ## Currently interested in
 
 `AI Agents` · `Voice AI` · `LLM Systems` · `Developer Tools` · `Startups`
