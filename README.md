@@ -1,16 +1,26 @@
-## Hi there 👋
+# Hey, I'm Isidro 👋
 
-<!--
-**isidropasman/isidropasman** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Founder and Computer Engineering student from Argentina.
 
-Here are some ideas to get you started:
+I build AI systems, agents, and products that turn complex real-world problems into software.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently building **Plexo** and experimenting with AI agents, voice systems, organizational intelligence, and developer tools.
+
+## Selected Projects
+
+### 🧠 FounderOS
+An AI-native operating system for founders — combining company context, decisions, expert knowledge, and AI to help founders think and operate better.
+
+### 🏢 Organa
+AI-powered organizational memory. Turn an org chart into AI agents that learn how people work and preserve organizational knowledge.
+
+### ⚡ Plexo
+Building AI agents that understand complex real-world operations and turn unstructured human knowledge into actionable intelligence.
+
+## Currently interested in
+
+`AI Agents` · `Voice AI` · `LLM Systems` · `Developer Tools` · `Startups`
+
+---
+
+**Buenos Aires, Argentina**
