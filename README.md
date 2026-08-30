@@ -18,10 +18,10 @@ AI-powered organizational memory. Turn an org chart into AI agents that learn ho
 Building AI agents that understand complex real-world operations and turn unstructured human knowledge into actionable intelligence.
 
 ### 🧪 Agent Evals
-Experiments and tooling for evaluating AI agents — measuring reliability, failure modes, and behavior across complex tasks.
+Building eval systems to understand where AI agents fail, how reliable they are, and how to make agentic workflows safer in production.
 
 ### 🛡️ AI Privacy Guard
-A local-first Chrome extension that detects sensitive information before it reaches AI tools, blocking secrets and helping anonymize PII directly in the browser.
+Built at a hackathon: a local-first Chrome extension that catches credentials, PII, financial data, and other sensitive information before it gets sent to any LLM.
 
 ## Currently interested in
 
