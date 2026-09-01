@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Founder · Software Engineer · Buenos Aires, Argentina
+  Founder · Buenos Aires, Argentina
 </p>
 
 ---
@@ -31,7 +31,7 @@ Local-first protection for sensitive data before it reaches an LLM.
 
 ## Interests
 
-`Voice AI` · `Agents` · `Saving time` · `Evals` · `Context` · `Developer tools` · `Startups`
+`Founder` · `Voice AI` · `Agents` · `Saving time` · `Evals` · `Context` · `Automation` · `Developer tools`
 
 ## Stack
 
