@@ -1,87 +1,40 @@
-<div align="left">
+<p align="center">
+  <img src="./assets/hero.svg" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Saving time" />
+</p>
 
-# Isidro Pasman
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2300&pause=900&color=8B949E&width=650&lines=Software+Engineer.;Founder.;Building+AI+systems.;Buenos+Aires" />
-
-</div>
-
-I build software around messy real-world problems.
-
-Most of my work is focused on **AI agents, agent infrastructure, voice systems, context engineering, and developer tools**.
-
-Based in **Buenos Aires, Argentina**.
+<p align="center">
+  Founder · Software Engineer · Buenos Aires, Argentina
+</p>
 
 ---
 
 ## Selected Work
 
 ### FounderOS
+Context and decision infrastructure for founders.
 
-**Context and decision infrastructure for founders.**
-
-A system that combines company context, structured knowledge, expert frameworks and LLMs to help founders make better decisions.
-
-`TypeScript` · `LLM orchestration` · `Context systems` · `Retrieval` · `Evals`
-
-**Things I worked on:**
-
-* Provider abstraction for multiple LLMs
-* Structured context ingestion
-* Expert routing and orchestration
-* Citation validation
-* Evaluation pipelines
-* Deterministic offline testing
-
----
+`TypeScript` · `LLM orchestration` · `Retrieval` · `Evals` · `Context systems`
 
 ### Plexo
+AI agents for real-world workflows.
 
-**AI agents for complex real-world operations.**
-
-Building agent systems that turn unstructured conversations and operational knowledge into structured state and actions.
-
-`AI Agents` · `Voice AI` · `State Management` · `Tool Calling` · `Structured Extraction`
-
-Some of the problems I'm interested in:
-
-* Maintaining state across long-running conversations
-* Detecting missing information and asking for it proactively
-* Reliable tool execution
-* Voice latency
-* Agent observability and evaluation
-
----
+`Voice AI` · `Tool Calling` · `State` · `Evals` · `Agent Systems`
 
 ### AI Privacy Guard
-
-**Local-first protection for sensitive data sent to LLMs.**
-
-A Chrome extension built at a hackathon that detects credentials, PII, financial data and other sensitive information before it leaves the browser.
+Local-first protection for sensitive data before it reaches an LLM.
 
 → [View repository](https://github.com/Zent-Agency/ai-privacy-guard)
 
-`Chrome Extensions` · `Privacy` · `LLMs` · `Local-first`
+`Privacy` · `Chrome Extensions` · `Local-first` · `LLMs`
 
 ---
 
-## Currently Exploring
+## Interests
 
-```text
-agent runtimes
-voice AI
-context engineering
-LLM evaluation
-human ↔ agent interaction
-developer infrastructure
-```
+`Voice AI` · `Agents` · `Saving time` · `Evals` · `Context` · `Developer tools` · `Startups`
 
 ## Stack
 
 `TypeScript` · `Python` · `Node.js` · `PostgreSQL` · `Docker`
 
-`Agent Systems` · `LLM Evals` · `Tool Calling` · `RAG` · `Voice AI` · `Context Engineering`
-
----
-
-> I learn by building things.
+`Tool Calling` · `RAG` · `Voice AI` · `LLM Evals` · `Agent Systems`
