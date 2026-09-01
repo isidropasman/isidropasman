@@ -78,7 +78,9 @@ developer infrastructure
 
 ## Stack
 
-`TypeScript` · `Python` · `Next.js` · `Node.js` · `PostgreSQL` · `Docker`
+`TypeScript` · `Python` · `Node.js` · `PostgreSQL` · `Docker`
+
+`Agent Systems` · `LLM Evals` · `Tool Calling` · `RAG` · `Voice AI` · `Context Engineering`
 
 ---
 
