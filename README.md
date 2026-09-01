@@ -2,7 +2,7 @@
 
 # Isidro Pasman
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2300&pause=900&color=8B949E&width=650&lines=Software+Engineer.;Founder.;Building+AI+systems.;Buenos+Aires+%E2%86%92+San+Francisco." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2300&pause=900&color=8B949E&width=650&lines=Software+Engineer.;Founder.;Building+AI+systems.;Buenos+Aires" />
 
 </div>
 
