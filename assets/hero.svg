@@ -1,0 +1,58 @@
+<svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="960" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B5FFF"/>
+      <stop offset="1" stop-color="#143D9C"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="18" y="18" width="964" height="284" rx="28" fill="url(#bg)" filter="url(#shadow)"/>
+
+  <g opacity="0.09" stroke="white">
+    <path d="M80 45V275M160 45V275M240 45V275M320 45V275M400 45V275M480 45V275M560 45V275M640 45V275M720 45V275M800 45V275M880 45V275M960 45V275"/>
+    <path d="M45 80H955M45 140H955M45 200H955M45 260H955"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">
+    <rect x="86" y="70" width="124" height="38" rx="19" fill="white" fill-opacity="0.13"/>
+    <text x="148" y="95" fill="white" text-anchor="middle">Founder</text>
+
+    <rect x="224" y="70" width="196" height="38" rx="19" fill="white" fill-opacity="0.13"/>
+    <text x="322" y="95" fill="white" text-anchor="middle">Buenos Aires</text>
+
+    <rect x="434" y="70" width="132" height="38" rx="19" fill="white" fill-opacity="0.13"/>
+    <text x="500" y="95" fill="white" text-anchor="middle">Voice AI</text>
+
+    <rect x="580" y="70" width="154" height="38" rx="19" fill="white" fill-opacity="0.13"/>
+    <text x="657" y="95" fill="white" text-anchor="middle">Agents</text>
+
+    <rect x="748" y="70" width="166" height="38" rx="19" fill="white" fill-opacity="0.13"/>
+    <text x="831" y="95" fill="white" text-anchor="middle">Saving time</text>
+  </g>
+
+  <g text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="1">
+      BUILD
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
+      TEST
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
+      BREAK
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
+      LEARN
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="500" y="226" text-anchor="middle" fill="#DBEAFE"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+        font-size="18" letter-spacing="1.8">BUILD · TEST · BREAK · LEARN</text>
+</svg>
