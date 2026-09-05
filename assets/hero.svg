@@ -2,7 +2,7 @@
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#020817"/><stop offset=".55" stop-color="#061A3A"/><stop offset="1" stop-color="#020817"/></linearGradient>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1677FF" stroke-opacity=".11"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <style>.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.label{font-size:14px;fill:#DCEBFF}.muted{fill:#4D80C9}.cyan{fill:#22D3EE}.card{fill:#071A3B;stroke:#174F9D;stroke-width:2}.hot{fill:#0A2B63;stroke:#22D3EE;stroke-width:2.5;filter:url(#glow)}</style>
 </defs>
 <rect x="12" y="12" width="976" height="296" fill="url(#bg)" stroke="#1677FF" stroke-width="2"/><rect x="22" y="22" width="956" height="276" fill="url(#grid)"/>
@@ -15,16 +15,16 @@
  <g><rect x="580" y="82" width="150" height="48" class="card"/><rect x="580" y="82" width="150" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0" dur="7.5s" repeatCount="indefinite"/></rect><text x="655" y="111">Agents</text></g>
  <g><rect x="745" y="82" width="190" height="48" class="card"/><rect x="745" y="82" width="190" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1" dur="7.5s" repeatCount="indefinite"/></rect><text x="840" y="111">Learning</text></g>
 </g>
-<!-- Quote uses fixed segment positions: animated words are never duplicated or overlaid. -->
-<g class="mono" font-size="22">
- <text x="126" y="180" fill="#EAF2FF">Work on things that seem</text>
- <text x="409" y="180" class="cyan">interesting<animate attributeName="filter" values="none;url(#glow);none;none" dur="6s" repeatCount="indefinite"/></text>
- <text x="554" y="180" fill="#EAF2FF">,</text>
- <text x="91" y="214" fill="#EAF2FF">follow</text>
- <text x="166" y="214" class="cyan">curiosity<animate attributeName="filter" values="none;none;url(#glow);none" dur="6s" repeatCount="indefinite"/></text>
- <text x="286" y="214" fill="#EAF2FF">, and become</text>
- <text x="438" y="214" class="cyan">formidable<animate attributeName="filter" values="none;none;none;url(#glow)" dur="6s" repeatCount="indefinite"/></text>
- <text x="571" y="214" fill="#EAF2FF">by doing.</text>
+<!-- Renderer-safe quote: one text element per line, tspans preserve natural inline spacing. -->
+<g class="mono" text-anchor="middle" font-size="22" fill="#EAF2FF">
+ <text x="500" y="180">Work on things that seem <tspan fill="#22D3EE">interesting</tspan>,</text>
+ <text x="500" y="214">follow <tspan fill="#22D3EE">curiosity</tspan>, and become <tspan fill="#22D3EE">formidable</tspan> by doing.</text>
+</g>
+<!-- subtle underline pulses avoid duplicating or repositioning quote text -->
+<g stroke="#22D3EE" stroke-width="2" filter="url(#glow)" opacity="0">
+ <path d="M603 186H735"><animate attributeName="opacity" values="0;1;0;0" dur="6s" repeatCount="indefinite"/></path>
+ <path d="M208 220H315"><animate attributeName="opacity" values="0;0;1;0" dur="6s" repeatCount="indefinite"/></path>
+ <path d="M527 220H660"><animate attributeName="opacity" values="0;0;0;1" dur="6s" repeatCount="indefinite"/></path>
 </g>
 <text x="500" y="250" text-anchor="middle" class="mono muted" font-size="13">— PAUL GRAHAM / ESSAYS</text>
 <g class="mono muted" font-size="10"><text x="48" y="278">BUILD / TEST / LEARN / REPEAT</text><text x="952" y="278" text-anchor="end">MORE IDEAS / LESS BUSY WORK</text></g>
