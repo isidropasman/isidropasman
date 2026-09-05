@@ -1,58 +1,39 @@
 <svg width="1000" height="320" viewBox="0 0 1000 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="40" y1="20" x2="960" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B5FFF"/>
-      <stop offset="1" stop-color="#143D9C"/>
-    </linearGradient>
-    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.18"/>
-    </filter>
-  </defs>
-
-  <rect x="18" y="18" width="964" height="284" rx="28" fill="url(#bg)" filter="url(#shadow)"/>
-
-  <g opacity="0.09" stroke="white">
-    <path d="M80 45V275M160 45V275M240 45V275M320 45V275M400 45V275M480 45V275M560 45V275M640 45V275M720 45V275M800 45V275M880 45V275M960 45V275"/>
-    <path d="M45 80H955M45 140H955M45 200H955M45 260H955"/>
-  </g>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">
-    <rect x="86" y="70" width="124" height="38" rx="19" fill="white" fill-opacity="0.13"/>
-    <text x="148" y="95" fill="white" text-anchor="middle">Founder</text>
-
-    <rect x="224" y="70" width="196" height="38" rx="19" fill="white" fill-opacity="0.13"/>
-    <text x="322" y="95" fill="white" text-anchor="middle">Buenos Aires</text>
-
-    <rect x="434" y="70" width="132" height="38" rx="19" fill="white" fill-opacity="0.13"/>
-    <text x="500" y="95" fill="white" text-anchor="middle">Voice AI</text>
-
-    <rect x="580" y="70" width="154" height="38" rx="19" fill="white" fill-opacity="0.13"/>
-    <text x="657" y="95" fill="white" text-anchor="middle">Agents</text>
-
-    <rect x="748" y="70" width="166" height="38" rx="19" fill="white" fill-opacity="0.13"/>
-    <text x="831" y="95" fill="white" text-anchor="middle">Saving time</text>
-  </g>
-
-  <g text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="1">
-      BUILD
-      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0" dur="8s" repeatCount="indefinite"/>
-    </text>
-    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
-      TEST
-      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0" dur="8s" repeatCount="indefinite"/>
-    </text>
-    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
-      BREAK
-      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" dur="8s" repeatCount="indefinite"/>
-    </text>
-    <text x="500" y="185" fill="white" font-size="36" font-weight="700" opacity="0">
-      LEARN
-      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" dur="8s" repeatCount="indefinite"/>
-    </text>
-  </g>
-
-  <text x="500" y="226" text-anchor="middle" fill="#DBEAFE"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-        font-size="18" letter-spacing="1.8">BUILD · TEST · BREAK · LEARN</text>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="320" gradientUnits="userSpaceOnUse"><stop stop-color="#020817"/><stop offset=".55" stop-color="#061A3A"/><stop offset="1" stop-color="#020817"/></linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1677FF" stroke-opacity=".11"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.label{font-size:14px;fill:#DCEBFF}.muted{fill:#4D80C9}.cyan{fill:#22D3EE}.card{fill:#071A3B;stroke:#174F9D;stroke-width:2}.hot{fill:#0A2B63;stroke:#22D3EE;stroke-width:2.5;filter:url(#glow)}
+  </style>
+</defs>
+<rect x="12" y="12" width="976" height="296" fill="url(#bg)" stroke="#1677FF" stroke-width="2"/>
+<rect x="22" y="22" width="956" height="276" fill="url(#grid)"/>
+<!-- pixel-cut corners -->
+<path d="M12 38V12H38M962 12H988V38M12 282V308H38M962 308H988V282" stroke="#2A8CFF" stroke-width="6"/>
+<!-- header -->
+<text x="45" y="48" class="mono" font-size="13" fill="#399BFF">&gt; ISIDRO.PASMAN</text><rect x="174" y="36" width="7" height="14" fill="#22D3EE"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<text x="955" y="48" text-anchor="end" class="mono muted" font-size="12">BUILDING WHAT'S NEXT //</text>
+<path d="M55 70H945" stroke="#0D4C9B" stroke-width="1"/>
+<!-- cards -->
+<g class="mono label" text-anchor="middle">
+ <g><rect x="65" y="82" width="150" height="48" class="card"/><rect x="65" y="82" width="150" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0" dur="7.5s" repeatCount="indefinite"/></rect><text x="140" y="111">Founder</text></g>
+ <g><rect x="230" y="82" width="170" height="48" class="card"/><rect x="230" y="82" width="170" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0" dur="7.5s" repeatCount="indefinite"/></rect><text x="315" y="111">Buenos Aires</text></g>
+ <g><rect x="415" y="82" width="150" height="48" class="card"/><rect x="415" y="82" width="150" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0" dur="7.5s" repeatCount="indefinite"/></rect><text x="490" y="111">Voice AI</text></g>
+ <g><rect x="580" y="82" width="150" height="48" class="card"/><rect x="580" y="82" width="150" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0" dur="7.5s" repeatCount="indefinite"/></rect><text x="655" y="111">Agents</text></g>
+ <g><rect x="745" y="82" width="190" height="48" class="card"/><rect x="745" y="82" width="190" height="48" class="hot" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1" dur="7.5s" repeatCount="indefinite"/></rect><text x="840" y="111">Saving time</text></g>
+</g>
+<!-- quote -->
+<g class="mono" text-anchor="middle" font-size="22">
+ <text x="500" y="180" fill="#EAF2FF">Work on things that seem <tspan class="cyan">interesting</tspan>,</text>
+ <text x="500" y="214" fill="#EAF2FF">follow <tspan class="cyan">curiosity</tspan>, and become <tspan class="cyan">formidable</tspan> by doing.</text>
+ <!-- sequential glow overlays -->
+ <text x="674" y="180" class="cyan" filter="url(#glow)" opacity="0">interesting<animate attributeName="opacity" values="0;1;1;0;0;0" dur="6s" repeatCount="indefinite"/></text>
+ <text x="325" y="214" class="cyan" filter="url(#glow)" opacity="0">curiosity<animate attributeName="opacity" values="0;0;1;1;0;0" dur="6s" repeatCount="indefinite"/></text>
+ <text x="626" y="214" class="cyan" filter="url(#glow)" opacity="0">formidable<animate attributeName="opacity" values="0;0;0;0;1;1" dur="6s" repeatCount="indefinite"/></text>
+</g>
+<text x="500" y="250" text-anchor="middle" class="mono muted" font-size="13">— PAUL GRAHAM / ESSAYS</text>
+<!-- tiny HUD details -->
+<g class="mono muted" font-size="10"><text x="48" y="278">BUILD / TEST / LEARN / REPEAT</text><text x="952" y="278" text-anchor="end">MORE IDEAS / LESS BUSY WORK</text></g>
+<g fill="#22D3EE"><rect x="45" y="151" width="4" height="4"/><rect x="951" y="151" width="4" height="4"/><rect x="280" y="274" width="3" height="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.1s" repeatCount="indefinite"/></rect><rect x="720" y="268" width="3" height="3"><animate attributeName="opacity" values="1;.2;1" dur="1.7s" repeatCount="indefinite"/></rect></g>
 </svg>
