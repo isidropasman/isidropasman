@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Saving time" />
+  <img src="./assets/hero.svg?v=20260905-2" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Learning" />
 </p>
 
 <p align="center">
