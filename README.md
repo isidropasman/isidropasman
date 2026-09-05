@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/hero.svg?v=20260905-3" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Learning" />
+  <img src="./assets/hero.svg?v=20260905-4" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Learning" />
 </p>
 
 <p align="center">
-  Founder · Buenos Aires, Argentina
+  Founder · Software Engineer · Buenos Aires, Argentina
 </p>
 
 ---
@@ -17,17 +17,33 @@ AI agents for real-world workflows — turning messy human conversations into ev
 
 `Voice AI` · `Context Systems` · `Evals` · `Agent Systems`
 
-### FounderOS
-Context and decision infrastructure for founders.
+### Gauntlet
+A black-box proving ground for AI agents. Adversarial scenarios, tool-use simulation, reproducible evals, `pass^k`, and evidence you can actually debug.
 
-`TypeScript` · `LLM orchestration` · `Retrieval` · `Evals` · `Context systems`
+→ [View repository](https://github.com/isidropasman/agent-evals)
+
+`Agent Evals` · `Adversarial Testing` · `Tool Calling` · `Reliability`
+
+### FounderOS
+An evidence-driven decision system for founders: bounded context, versioned procedures, verified sources, independent challenge, replayable traces, and ablation-based evaluation.
+
+→ [View repository](https://github.com/isidropasman/founder-os)
+
+`TypeScript` · `Context Engineering` · `Retrieval` · `Evals` · `Provenance`
 
 ### AI Privacy Guard
-Local-first protection for sensitive data before it reaches an LLM.
+Local-first privacy enforcement at the boundary between humans and AI. Detects sensitive information before it leaves the browser.
 
 → [View repository](https://github.com/Zent-Agency/ai-privacy-guard)
 
-`Privacy` · `Chrome Extensions` · `Local-first` · `LLMs`
+`Privacy` · `Browser Security` · `Local-first` · `LLMs`
+
+### MacTools
+I kept paying for tiny Mac utilities, so I started building my own. One native macOS app for the small tools I use every day.
+
+→ [View repository](https://github.com/isidropasman/MacTools)
+
+`Swift` · `SwiftUI` · `macOS` · `Developer Tools`
 
 ---
 
