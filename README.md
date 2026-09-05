@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg?v=20260905-2" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Learning" />
+  <img src="./assets/hero.svg?v=20260905-3" width="100%" alt="Founder · Buenos Aires · Voice AI · Agents · Learning" />
 </p>
 
 <p align="center">
@@ -80,7 +80,7 @@ The tools will change. The system shouldn't depend on any one of them.
 
 ## Interests
 
-`Founder` · `Voice AI` · `Agents` · `Saving time` · `Evals` · `Context` · `Automation` · `Developer tools`
+`Founder` · `Voice AI` · `Agents` · `Learning` · `Evals` · `Context` · `Automation` · `Developer tools`
 
 ## Core stack
 
